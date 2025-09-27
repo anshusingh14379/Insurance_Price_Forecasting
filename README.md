@@ -3,13 +3,13 @@ This project is an end-to-end machine learning solution designed to predict insu
 
 ### Project Steps
 #### 1. Set Up the Environment
-    - **Tools Used:** Visual Studio Code (VS Code), Python, Jupyter Notebook
-    - **Goal:** Create a structured workspace and organize project folders for smooth development and data handling.
+    - Tools Used: Visual Studio Code (VS Code), Python, Jupyter Notebook
+    - Goal: Create a structured workspace and organize project folders for smooth development and data handling.
 
 #### 2. Load and Explore Dataset
-    - **Dataset:** insurance.csv (contains age, sex, BMI, number of children, smoking status, region, and insurance charges)
-    - **Python Libraries:** pandas, numpy, matplotlib, seaborn
-    - **Steps:**
+    - Dataset: insurance.csv (contains age, sex, BMI, number of children, smoking status, region, and insurance charges)
+    - Python Libraries: pandas, numpy, matplotlib, seaborn
+    - Steps:
         - Load data into a Pandas DataFrame
         - Inspect the first few rows (.head())
         - Check summary statistics (.describe()) and data types (.dtypes)
@@ -24,12 +24,12 @@ This project is an end-to-end machine learning solution designed to predict insu
     - Bar charts for region-wise total charges
 
 #### 4. Model Building
-    - **Models Used:**
+    - Models Used:
         - Linear Regression – baseline predictive model
         - Random Forest Regressor – handles non-linear relationships
         - Polynomial Regression – captures polynomial relationships between features
       
-    - **Steps:**
+    - Steps:
         - Split data into training and testing sets (train_test_split)
         - Train models on training data
         - Make predictions on test data
@@ -42,12 +42,12 @@ This project is an end-to-end machine learning solution designed to predict insu
     | Linear Regression     | 0.75     | 3000 | 15000000 |
     | Random Forest         | 0.88     | 2000 | 8000000  |
     | Polynomial Regression | 0.80     | 2500 | 12000000 |
-    - **Insights:**
+    - Insights:
         - Random Forest achieved the highest predictive accuracy.
         - Smoking status, BMI, and age are the most important features influencing insurance charges.
 
 #### 6. Feature Importance
-    - **Random Forest feature importance plotted to identify key factors affecting insurance charges:**
+    - Random Forest feature importance plotted to identify key factors affecting insurance charges:
       - Most Important: Smoker, BMI, Age
       - Moderately Important: Children, Sex
       - Least Important: Region
@@ -73,4 +73,4 @@ This project is an end-to-end machine learning solution designed to predict insu
 #### 9. Requirements
     - Python 3.8+
     - Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
-    - **code:** pip install pandas numpy matplotlib seaborn scikit-learn
+    - code: pip install pandas numpy matplotlib seaborn scikit-learn
